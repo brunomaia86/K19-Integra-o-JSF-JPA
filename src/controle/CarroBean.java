@@ -1,13 +1,15 @@
 package controle;
 
-import modelo.Carro;
-import modelo.CarroRepository;
 import java.util.List;
+
 import javax.faces.bean.ManagedBean;
 import javax.faces.context.ExternalContext;
 import javax.faces.context.FacesContext;
 import javax.persistence.EntityManager;
 import javax.servlet.http.HttpServletRequest;
+
+import modelo.Carro;
+import modelo.CarroRepository;
 
 @ManagedBean
 public class CarroBean {
